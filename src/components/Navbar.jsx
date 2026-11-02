@@ -14,6 +14,7 @@ export default function Navbar(){ return (
       <nav className='hidden md:flex gap-6 text-sm'>
         <NavLink to='/' className={({isActive})=>isActive ? 'text-primary font-medium' : 'text-slate-700'}>Home</NavLink>
         <NavLink to='/services' className={({isActive})=>isActive ? 'text-primary font-medium' : 'text-slate-700'}>Services</NavLink>
+        <NavLink to='/about' className={({isActive})=>isActive ? 'text-primary font-medium' : 'text-slate-700'}>About</NavLink>
         <NavLink to='/insights' className={({isActive})=>isActive ? 'text-primary font-medium' : 'text-slate-700'}>Insights</NavLink>
         <NavLink to='/contact' className={({isActive})=>isActive ? 'text-primary font-medium' : 'text-slate-700'}>Contact</NavLink>
       </nav>
