@@ -16,6 +16,7 @@ export default function Navbar(){ return (
         <NavLink to='/services' className={({isActive})=>isActive ? 'text-primary font-medium' : 'text-slate-700'}>Services</NavLink>
         <NavLink to='/about' className={({isActive})=>isActive ? 'text-primary font-medium' : 'text-slate-700'}>About</NavLink>
         <NavLink to='/insights' className={({isActive})=>isActive ? 'text-primary font-medium' : 'text-slate-700'}>Insights</NavLink>
+        <NavLink to='/procurement' className={({isActive})=>isActive ? 'text-primary font-medium' : 'text-slate-700'}>Procurement</NavLink>
         <NavLink to='/contact' className={({isActive})=>isActive ? 'text-primary font-medium' : 'text-slate-700'}>Contact</NavLink>
       </nav>
     </div>
